@@ -2,7 +2,7 @@
 const calculator = require("./calculator.js"); // require is used to import from another js
 
 
-
+// This is my main app
 console.log("Starting my first Node JS application");
 
 console.log("Calculator's Description: "+calculator.description);
