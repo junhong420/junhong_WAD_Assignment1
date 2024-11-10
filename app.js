@@ -25,3 +25,5 @@ console.log(hotelManagement.addStaffMember('Alina','Cleaner'));
 // check staff list
 console.log(hotelManagement.checkStaffList());
 
+niiwdojw
+
