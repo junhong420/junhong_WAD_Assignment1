@@ -15,10 +15,10 @@ Provide the references that you have used to support your assignment.<br>
 
 my functions: <br>
 addRoom - Add new room to the hotel. <br>
-checkNumberOfRooms- Get total number of rooms added.<br>
+checkNumberOfRooms - Get total number of rooms added.<br>
 addStaffMember - Add new staff member to the hotel.<br>
 checkStaffList - List all staff members.<br>
-checkNumberOfStaff- Get total number of staff member added.<br>
+checkNumberOfStaff - Get total number of staff member added.<br>
 checkAvailableRoom - Check if a room is available.<br>
 assignRoom - Assign an available room to a guest. <br>
 

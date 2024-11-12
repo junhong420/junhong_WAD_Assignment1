@@ -1,7 +1,6 @@
 
 let hotelManagement = {
 
-
     //start from here
     rooms:[],
     staffMember:[],
@@ -23,16 +22,13 @@ let hotelManagement = {
         // return this.staffMember;
     },
 
-
-
     //function 3: add staff member
     //this function will add staff member into the array of staffmember(staff list)
     addStaffMember(name, position){
         this.staffMember.push({
-            name:name,
-            position:position
+            name: name,
+            position: position
         }
-        
         );
         // return "Staff Member "+" of name: "+ name +" added successfully";
         return `Staff member: ${name}. Work position: ${position}, added successfully!`;
@@ -45,7 +41,6 @@ let hotelManagement = {
         // return `Staff List: ` +  JSON.stringify(this.staffMember);
         return this.staffMember;
     },
-
 
     //function 5: get total number of staff
     //this function will get the total number of staff in the array of staffmember(staff list)
@@ -62,7 +57,6 @@ let hotelManagement = {
             return `Room ${roomNumber} is available.`;
         }
         return `Room ${roomNumber} is not available.`;
-
     },
 
     //function 7: assigning room to guest
@@ -78,12 +72,6 @@ let hotelManagement = {
         }
         return `Room ${roomNumber} is not available.`;
     },
-
-
-    
-
-
-    
 }
 
 module.exports = hotelManagement;
