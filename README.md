@@ -31,9 +31,8 @@ Instructions:<br>
 
 Codes to copy and paste on app.js:<br>
 
-//add this require sentence in order to test out the node module
-
-//require is used to import from another js
+//add this require sentence in order to test out the node module <br>
+//require is used to import from another js <br>
 
 const hotelManagement = require("./junhong_hotelManagement.js");
 
