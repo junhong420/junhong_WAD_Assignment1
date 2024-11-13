@@ -25,9 +25,10 @@ assignRoom - Assign an available room to a guest. <br>
 Instructions:<br>
 
 1. Create an app.js file for testing out the node module.<br>
-2. Copy the following codes below into the app.js that just created. <br>
+2. Copy the following codes below into the app.js that just created. Description of the function is shown in the code below that are commented. <br>
 3. Start the node module by running app.js<br>
 4. Type "node app.js" or "nodemon app.js" at the terminal to run.<br>
+5. Then all the output will be shown after running the app.js.<br>
 
 Codes to copy and paste on app.js:<br>
 
