@@ -22,7 +22,7 @@ checkNumberOfStaff - Get total number of staff member added.<br>
 checkAvailableRoom - Check if a room is available.<br>
 assignRoom - Assign an available room to a guest. <br>
 
-Instructions:<br>ceece
+Instructions:<br>
 
 1. Create an app.js file for testing out the node module.<br>
 2. Copy the following codes below into the app.js that just created. Description of the function is shown in the code below that are commented. <br>
