@@ -25,11 +25,12 @@ Provide the references that you have used to support your assignment.<br>
 
 ## **Instructions:**<br>
 
-1. Create an `app.js` file for testing out the node module.<br>
-2. Copy the following codes below into the `app.js` that just created. Description of the function is shown in the code below that are bulleted. <br>
-3. Start the node module by running `app.js`.<br>
-4. Type `node app.js` or `nodemon app.js` at the terminal to run, if you have `nodemon` installed.<br>
-5. Then all the output will be shown after running the `app.js`.<br>
+1. Clone the repository to your own repository.<br>
+2. Create an `app.js` file for testing out the node module.<br>
+3. Copy the following codes below into the `app.js` that just created. Description of the function is shown in the code below that are bulleted. <br>
+4. Start the node module by running `app.js`.<br>
+5. Type `node app.js` or `nodemon app.js` at the terminal to run, if you have `nodemon` installed.<br>
+6. Then all the output will be shown after running the `app.js`.<br>
 
 **Codes to copy and paste on `app.js`:**<br>
 
@@ -110,7 +111,7 @@ console.log(hotelManagement.assignRoom(201,'Jeremy'));
 ^Room assigned to guest will be shown
 
 - **Check the availability of the asssigned** <br>
-- Enter the following console again to check the availability of the rooms being assigned with the parameter of the room number<br>
+- Enter the following console again to check the availability of the rooms being assigned with the parameter of the assigned room number<br>
 
 ```
 console.log(hotelManagement.checkAvailableRoom(201));<br>
