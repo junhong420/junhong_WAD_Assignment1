@@ -31,7 +31,7 @@ Provide the references that you have used to support your assignment.<br>
 4. Type `node app.js` or `nodemon app.js` at the terminal to run, if you have `nodemon` installed.<br>
 5. Then all the output will be shown after running the `app.js`.<br>
 
-**Codes to copy and paste on app.js:**<br>
+**Codes to copy and paste on `app.js`:**<br>
 
 - Add this require sentence in order to test out the node module (require is used to import from another js) <br>
 
@@ -51,15 +51,17 @@ console.log(hotelManagement.addRoom(203,'Deluxe Room','$'+600));
 
 ^Rooms will be added
 
-//function 2: check total number of rooms<br>
-//enter the following console to check number of rooms added<br>
+- **Function 2: Check total number of rooms**<br>
+- Enter the following console to check number of rooms added <br>
 
 ```
 console.log(hotelManagement.checkNumberOfRooms());
 ```
 
-// function 3: add staff member<br>
-//enter the following console to add staff member with the parameters of name and the position for each staff<br>
+^Total number of rooms will be shown
+
+- **Function 3: Add staff member**<br>
+- Enter the following console to add staff member with the parameters of name and the position for each staff<br>
 
 ```
 console.log(hotelManagement.addStaffMember('John','Manager'));
@@ -67,22 +69,28 @@ console.log(hotelManagement.addStaffMember('Merry','Front Desk'));
 console.log(hotelManagement.addStaffMember('Alina','Cleaner'));
 ```
 
-//function 4: check and get staff list for all staff member<br>
-//enter the following console to check the staff member added in the staff list<br>
+^Staff member will be added
+
+- **Function 4: Check and get staff list for all staff member**<br>
+- Enter the following console to check the staff member added in the staff list<br>
 
 ```
 console.log('Staff List: ', hotelManagement.checkStaffList());
 ```
 
-//function 5: get total number of staff<br>
-//enter the following console to check number of staff member added<br>
+^Display all the staff member from the staff list
+
+- **Function 5: Get total number of staff**<br>
+- Enter the following console to check number of staff member added<br>
 
 ```
 console.log(hotelManagement.checkNumberOfStaff());<br>
 ```
 
-//function 6: check available <br>
-//enter the following console to check the availability of the rooms with the parameter of the room number<br>
+^Total number of staff will be shown
+
+- **Function 6: Check room availability** <br>
+- Enter the following console to check the availability of the rooms with the parameter of the room number<br>
 
 ```
 console.log(hotelManagement.checkAvailableRoom(201));
@@ -90,16 +98,22 @@ console.log(hotelManagement.checkAvailableRoom(202));
 console.log(hotelManagement.checkAvailableRoom(203));
 ```
 
-//function 7: assigning room to guest<br>
-//enter the following console to assign room to the guest with the parameters of the room number and guest name<br>
+^Room availabilities will be shown
+
+- **Function 7: Assigning room to guest**<br>
+- Enter the following console to assign room to the guest with the parameters of the room number and guest name<br>
 
 ```
 console.log(hotelManagement.assignRoom(201,'Jeremy'));
 ```
 
-//check the availability of the asssigned <br>
-//enter the following console again to check the availability of the rooms being assigned with the parameter of the room number<br>
+^Room assigned to guest will be shown
+
+- **Check the availability of the asssigned** <br>
+- Enter the following console again to check the availability of the rooms being assigned with the parameter of the room number<br>
 
 ```
 console.log(hotelManagement.checkAvailableRoom(201));<br>
 ```
+
+^Availability of the assigned room will be shown as not available as room has assigned to guest
