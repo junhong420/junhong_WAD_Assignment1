@@ -1,6 +1,6 @@
 # Assignment 1
 
-This is a hotel Management node module. It manages to add room, check total number of rooms, add staff member, check staff list, check total number of staff, check room availability and assign room.
+This is a hotel management node module. It manages to add room, check total number of rooms, add staff member, check staff list, check total number of staff, check room availability and assign room.
 
 # References
 
