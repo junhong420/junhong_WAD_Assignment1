@@ -2,6 +2,8 @@
 
 This is a hotel Management node module. It manages to add room, check total number of rooms, add staff member, check staff list, check total number of staff, check room availability and assign room.
 
+# References
+
 Provide the references that you have used to support your assignment.<br>
 -lab2, google<br>
 
