@@ -25,30 +25,31 @@ Provide the references that you have used to support your assignment.<br>
 
 ## **Instructions:**<br>
 
-1. Create an app.js file for testing out the node module.<br>
-2. Copy the following codes below into the app.js that just created. Description of the function is shown in the code below that are commented. <br>
+1. Create an `app.js` file for testing out the node module.<br>
+2. Copy the following codes below into the `app.js` that just created. Description of the function is shown in the code below that are bulleted. <br>
 3. Start the node module by running `app.js`.<br>
-4. Type `node app.js` or `nodemon app.js` at the terminal to run.<br>
-5. Then all the output will be shown after running the app.js.<br>
+4. Type `node app.js` or `nodemon app.js` at the terminal to run, if you have `nodemon` installed.<br>
+5. Then all the output will be shown after running the `app.js`.<br>
 
 **Codes to copy and paste on app.js:**<br>
 
-//add this require sentence in order to test out the node module <br>
-//require is used to import from another js <br>
+- Add this require sentence in order to test out the node module (require is used to import from another js) <br>
 
 ```
 const hotelManagement = require("./junhong_hotelManagement.js");
 ```
 
-//function 1: add rooms<br>
-//enter the following console to add rooms with room
-number, type of room and the price for each room<br>
+- **Function 1: Add rooms**<br>
+- Enter the following console to add rooms with room
+  number, type of room and the price for each room<br>
 
 ```
 console.log(hotelManagement.addRoom(201,'Single Room','$'+200));
 console.log(hotelManagement.addRoom(202,'Double Room','$'+300));
 console.log(hotelManagement.addRoom(203,'Deluxe Room','$'+600));
 ```
+
+^Rooms will be added
 
 //function 2: check total number of rooms<br>
 //enter the following console to check number of rooms added<br>
